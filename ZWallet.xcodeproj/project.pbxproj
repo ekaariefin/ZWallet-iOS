@@ -13,6 +13,12 @@
 		5612AFF627F3026E00219CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5612AFF427F3026E00219CF6 /* Main.storyboard */; };
 		5612AFF827F3026E00219CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5612AFF727F3026E00219CF6 /* Assets.xcassets */; };
 		5612AFFB27F3026E00219CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5612AFF927F3026E00219CF6 /* LaunchScreen.storyboard */; };
+		5612B00927F3036400219CF6 /* NunitoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00327F3036400219CF6 /* NunitoSans-Light.ttf */; };
+		5612B00A27F3036400219CF6 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00427F3036400219CF6 /* NunitoSans-Regular.ttf */; };
+		5612B00B27F3036400219CF6 /* NunitoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00527F3036400219CF6 /* NunitoSans-Black.ttf */; };
+		5612B00C27F3036400219CF6 /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00627F3036400219CF6 /* NunitoSans-SemiBold.ttf */; };
+		5612B00D27F3036400219CF6 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00727F3036400219CF6 /* NunitoSans-Bold.ttf */; };
+		5612B00E27F3036400219CF6 /* NunitoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00827F3036400219CF6 /* NunitoSans-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		5612AFF727F3026E00219CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5612AFFA27F3026E00219CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5612AFFC27F3026E00219CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5612B00327F3036400219CF6 /* NunitoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Light.ttf"; sourceTree = "<group>"; };
+		5612B00427F3036400219CF6 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		5612B00527F3036400219CF6 /* NunitoSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Black.ttf"; sourceTree = "<group>"; };
+		5612B00627F3036400219CF6 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		5612B00727F3036400219CF6 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		5612B00827F3036400219CF6 /* NunitoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Italic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		5612AFED27F3026E00219CF6 /* ZWallet */ = {
 			isa = PBXGroup;
 			children = (
+				5612B00227F302E700219CF6 /* Font */,
 				5612AFEE27F3026E00219CF6 /* AppDelegate.swift */,
 				5612AFF027F3026E00219CF6 /* SceneDelegate.swift */,
 				5612AFF227F3026E00219CF6 /* ViewController.swift */,
@@ -65,6 +78,19 @@
 				5612AFFC27F3026E00219CF6 /* Info.plist */,
 			);
 			path = ZWallet;
+			sourceTree = "<group>";
+		};
+		5612B00227F302E700219CF6 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				5612B00527F3036400219CF6 /* NunitoSans-Black.ttf */,
+				5612B00727F3036400219CF6 /* NunitoSans-Bold.ttf */,
+				5612B00827F3036400219CF6 /* NunitoSans-Italic.ttf */,
+				5612B00327F3036400219CF6 /* NunitoSans-Light.ttf */,
+				5612B00427F3036400219CF6 /* NunitoSans-Regular.ttf */,
+				5612B00627F3036400219CF6 /* NunitoSans-SemiBold.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +151,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5612B00B27F3036400219CF6 /* NunitoSans-Black.ttf in Resources */,
 				5612AFFB27F3026E00219CF6 /* LaunchScreen.storyboard in Resources */,
 				5612AFF827F3026E00219CF6 /* Assets.xcassets in Resources */,
+				5612B00E27F3036400219CF6 /* NunitoSans-Italic.ttf in Resources */,
+				5612B00A27F3036400219CF6 /* NunitoSans-Regular.ttf in Resources */,
 				5612AFF627F3026E00219CF6 /* Main.storyboard in Resources */,
+				5612B00927F3036400219CF6 /* NunitoSans-Light.ttf in Resources */,
+				5612B00C27F3036400219CF6 /* NunitoSans-SemiBold.ttf in Resources */,
+				5612B00D27F3036400219CF6 /* NunitoSans-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
