@@ -19,6 +19,7 @@
 		5612B00C27F3036400219CF6 /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00627F3036400219CF6 /* NunitoSans-SemiBold.ttf */; };
 		5612B00D27F3036400219CF6 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00727F3036400219CF6 /* NunitoSans-Bold.ttf */; };
 		5612B00E27F3036400219CF6 /* NunitoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00827F3036400219CF6 /* NunitoSans-Italic.ttf */; };
+		56743D4C27F35F1C00ECBC1B /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56743D4B27F35F1C00ECBC1B /* ResetPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		5612B00627F3036400219CF6 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		5612B00727F3036400219CF6 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
 		5612B00827F3036400219CF6 /* NunitoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Italic.ttf"; sourceTree = "<group>"; };
+		56743D4B27F35F1C00ECBC1B /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				5612AFF727F3026E00219CF6 /* Assets.xcassets */,
 				5612AFF927F3026E00219CF6 /* LaunchScreen.storyboard */,
 				5612AFFC27F3026E00219CF6 /* Info.plist */,
+				56743D4B27F35F1C00ECBC1B /* ResetPasswordViewController.swift */,
 			);
 			path = ZWallet;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				5612AFF327F3026E00219CF6 /* ViewController.swift in Sources */,
 				5612AFEF27F3026E00219CF6 /* AppDelegate.swift in Sources */,
 				5612AFF127F3026E00219CF6 /* SceneDelegate.swift in Sources */,
+				56743D4C27F35F1C00ECBC1B /* ResetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

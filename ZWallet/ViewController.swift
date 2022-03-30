@@ -28,23 +28,32 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.inputPass.isSecureTextEntry = true
     }
-    
-//    self.lineEmail.backgroundColor = UIColor.red
-//    self.linePass.backgroundColor = UIColor.red
-    
-    
-    
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.iconEmail.image = UIImage(systemName: "envelope.fill")
-        self.iconPass.image = UIImage(systemName: "lock.fill")
-        
+    
     }
     
-
+    
+    @IBAction func inputEmailOnClick(_ sender: Any) {
+        self.lineEmail.backgroundColor = .tintColor
+        self.iconEmail.image = UIImage(systemName: "envelope.fill")
+    }
+    
+    @IBAction func inputPasswordOnClick(_ sender: Any) {
+        self.linePass.backgroundColor = .tintColor
+        self.iconPass.image = UIImage(systemName: "lock.fill")
+    }
+    
+    @IBAction func btnForgotOnClick(_ sender: UIButton) {
+        let toResetPassword = UIStoryboard(name: "Main", bundle: nil)
+        let vc = toResetPassword.instantiateViewController(withIdentifier: "ResetPasswordViewController") as! ResetPasswordViewController
+        self.navigationController!.pushViewController(vc, animated: true)
+    }
+    
 
 }
 
