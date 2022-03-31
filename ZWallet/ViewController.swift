@@ -51,32 +51,13 @@ class ViewController: UIViewController {
     @IBAction func btnForgotOnClick(_ sender: UIButton) {
         let toResetPassword = UIStoryboard(name: "Main", bundle: nil)
         let vc = toResetPassword.instantiateViewController(withIdentifier: "ResetPasswordViewController") as! ResetPasswordViewController
-        self.navigationController!.pushViewController(vc, animated: true)
+        if let navigation = self.navigationController {
+            navigation.pushViewController(vc, animated: true)
+        }
+
     }
     
 
-}
-
-enum NunitoFonts {
-    static func nunitoLight(sizeOf size: CGFloat) -> UIFont? {
-        UIFont(name: "NunitoSans-Light", size: size)
-    }
-    static func nunitoRegular(sizeOf size: CGFloat) -> UIFont? {
-        UIFont(name: "NunitoSans-Regular", size: size)
-    }
-    static func nunitoBold(sizeOf size: CGFloat) -> UIFont? {
-        UIFont(name: "NunitoSans-Bold", size: size)
-    }
-    static func nunitoSemiBold(sizeOf size: CGFloat) -> UIFont? {
-        UIFont(name: "NunitoSans-SemiBold", size: size)
-    }
-    static func nunitoItalic(sizeOf size: CGFloat) -> UIFont? {
-        UIFont(name: "NunitoSans-Italic", size: size)
-    }
-    static func nunitoBlack(sizeOf size: CGFloat) -> UIFont? {
-        UIFont(name: "NunitoSans-Black", size: size)
-    }
-    
 }
 
 

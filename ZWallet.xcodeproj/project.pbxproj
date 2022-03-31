@@ -19,7 +19,16 @@
 		5612B00C27F3036400219CF6 /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00627F3036400219CF6 /* NunitoSans-SemiBold.ttf */; };
 		5612B00D27F3036400219CF6 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00727F3036400219CF6 /* NunitoSans-Bold.ttf */; };
 		5612B00E27F3036400219CF6 /* NunitoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00827F3036400219CF6 /* NunitoSans-Italic.ttf */; };
+		565AD02A27F483BB00BF2BC3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565AD02927F483BB00BF2BC3 /* RegisterViewController.swift */; };
+		565AD02C27F483D300BF2BC3 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 565AD02B27F483D300BF2BC3 /* RegisterViewController.xib */; };
 		56743D4C27F35F1C00ECBC1B /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56743D4B27F35F1C00ECBC1B /* ResetPasswordViewController.swift */; };
+		568A240C27F4430F007EB3AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568A240A27F4430F007EB3AB /* LoginViewController.swift */; };
+		568A240D27F4430F007EB3AB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568A240B27F4430F007EB3AB /* LoginViewController.xib */; };
+		56D05FE827F555D900BCA707 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D05FE727F555D900BCA707 /* LoginView.swift */; };
+		56D05FEB27F55BA600BCA707 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D05FEA27F55BA600BCA707 /* LoginPresenter.swift */; };
+		56D05FED27F55C2300BCA707 /* LoginPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D05FEC27F55C2300BCA707 /* LoginPresenterImpl.swift */; };
+		56D05FEF27F55CDB00BCA707 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D05FEE27F55CDB00BCA707 /* LoginInteractor.swift */; };
+		56D05FF127F55D5600BCA707 /* LoginInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D05FF027F55D5600BCA707 /* LoginInteractorOutput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +46,16 @@
 		5612B00627F3036400219CF6 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		5612B00727F3036400219CF6 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
 		5612B00827F3036400219CF6 /* NunitoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Italic.ttf"; sourceTree = "<group>"; };
+		565AD02927F483BB00BF2BC3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		565AD02B27F483D300BF2BC3 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		56743D4B27F35F1C00ECBC1B /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		568A240A27F4430F007EB3AB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		568A240B27F4430F007EB3AB /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		56D05FE727F555D900BCA707 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		56D05FEA27F55BA600BCA707 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		56D05FEC27F55C2300BCA707 /* LoginPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterImpl.swift; sourceTree = "<group>"; };
+		56D05FEE27F55CDB00BCA707 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		56D05FF027F55D5600BCA707 /* LoginInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorOutput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +88,7 @@
 		5612AFED27F3026E00219CF6 /* ZWallet */ = {
 			isa = PBXGroup;
 			children = (
+				568A23FE27F430A8007EB3AB /* Module */,
 				5612B00227F302E700219CF6 /* Font */,
 				5612AFEE27F3026E00219CF6 /* AppDelegate.swift */,
 				5612AFF027F3026E00219CF6 /* SceneDelegate.swift */,
@@ -94,6 +113,78 @@
 				5612B00627F3036400219CF6 /* NunitoSans-SemiBold.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		565AD02827F483A600BF2BC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				565AD02927F483BB00BF2BC3 /* RegisterViewController.swift */,
+				565AD02B27F483D300BF2BC3 /* RegisterViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		568A23FE27F430A8007EB3AB /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				568A240127F430F0007EB3AB /* RegisterModule */,
+				568A23FF27F430B3007EB3AB /* LoginModule */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		568A23FF27F430B3007EB3AB /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				568A240527F4315C007EB3AB /* View */,
+				568A240427F43156007EB3AB /* Router */,
+				568A240327F4314D007EB3AB /* Presenter */,
+				568A240227F43143007EB3AB /* Interactor */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		568A240127F430F0007EB3AB /* RegisterModule */ = {
+			isa = PBXGroup;
+			children = (
+				565AD02827F483A600BF2BC3 /* View */,
+			);
+			path = RegisterModule;
+			sourceTree = "<group>";
+		};
+		568A240227F43143007EB3AB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				56D05FEE27F55CDB00BCA707 /* LoginInteractor.swift */,
+				56D05FF027F55D5600BCA707 /* LoginInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		568A240327F4314D007EB3AB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				56D05FEA27F55BA600BCA707 /* LoginPresenter.swift */,
+				56D05FEC27F55C2300BCA707 /* LoginPresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		568A240427F43156007EB3AB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		568A240527F4315C007EB3AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				568A240A27F4430F007EB3AB /* LoginViewController.swift */,
+				568A240B27F4430F007EB3AB /* LoginViewController.xib */,
+				56D05FE727F555D900BCA707 /* LoginView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +245,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565AD02C27F483D300BF2BC3 /* RegisterViewController.xib in Resources */,
+				568A240D27F4430F007EB3AB /* LoginViewController.xib in Resources */,
 				5612B00B27F3036400219CF6 /* NunitoSans-Black.ttf in Resources */,
 				5612AFFB27F3026E00219CF6 /* LaunchScreen.storyboard in Resources */,
 				5612AFF827F3026E00219CF6 /* Assets.xcassets in Resources */,
@@ -173,10 +266,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D05FEB27F55BA600BCA707 /* LoginPresenter.swift in Sources */,
 				5612AFF327F3026E00219CF6 /* ViewController.swift in Sources */,
+				56D05FE827F555D900BCA707 /* LoginView.swift in Sources */,
 				5612AFEF27F3026E00219CF6 /* AppDelegate.swift in Sources */,
 				5612AFF127F3026E00219CF6 /* SceneDelegate.swift in Sources */,
+				56D05FF127F55D5600BCA707 /* LoginInteractorOutput.swift in Sources */,
+				565AD02A27F483BB00BF2BC3 /* RegisterViewController.swift in Sources */,
+				568A240C27F4430F007EB3AB /* LoginViewController.swift in Sources */,
 				56743D4C27F35F1C00ECBC1B /* ResetPasswordViewController.swift in Sources */,
+				56D05FEF27F55CDB00BCA707 /* LoginInteractor.swift in Sources */,
+				56D05FED27F55C2300BCA707 /* LoginPresenterImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +427,6 @@
 				INFOPLIST_FILE = ZWallet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -354,7 +453,6 @@
 				INFOPLIST_FILE = ZWallet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
