@@ -24,11 +24,28 @@
 		56743D4C27F35F1C00ECBC1B /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56743D4B27F35F1C00ECBC1B /* ResetPasswordViewController.swift */; };
 		568A240C27F4430F007EB3AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568A240A27F4430F007EB3AB /* LoginViewController.swift */; };
 		568A240D27F4430F007EB3AB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568A240B27F4430F007EB3AB /* LoginViewController.xib */; };
-		56D05FE827F555D900BCA707 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D05FE727F555D900BCA707 /* LoginView.swift */; };
-		56D05FEB27F55BA600BCA707 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D05FEA27F55BA600BCA707 /* LoginPresenter.swift */; };
+		56CF11D427F600EA009CD8C3 /* LoginInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF11D327F600EA009CD8C3 /* LoginInteractorImpl.swift */; };
+		56CF11DD27F601F8009CD8C3 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF11DC27F601F8009CD8C3 /* AuthApi.swift */; };
+		56CF11DF27F60215009CD8C3 /* AuthNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF11DE27F60215009CD8C3 /* AuthNetworkManagerImpl.swift */; };
+		56CF11E127F60226009CD8C3 /* AuthNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF11E027F60226009CD8C3 /* AuthNetworkManager.swift */; };
+		56CF11EE27F607BB009CD8C3 /* LoginDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF11ED27F607BB009CD8C3 /* LoginDataResponse.swift */; };
+		56CF11F027F607C5009CD8C3 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF11EF27F607C5009CD8C3 /* LoginResponse.swift */; };
+		56CF11F627F60BD2009CD8C3 /* UserDefaultHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF11F527F60BD2009CD8C3 /* UserDefaultHelper.swift */; };
+		56CF11F827F60C10009CD8C3 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF11F727F60C10009CD8C3 /* AppRouter.swift */; };
+		56CF11FA27F60C2F009CD8C3 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF11F927F60C2F009CD8C3 /* AppConstant.swift */; };
+		56CF11FC27F60DE2009CD8C3 /* LoginRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF11FB27F60DE2009CD8C3 /* LoginRouterImpl.swift */; };
+		56CF11FE27F60DED009CD8C3 /* LoginRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF11FD27F60DED009CD8C3 /* LoginRouterProtocol.swift */; };
+		56D05FE827F555D900BCA707 /* LoginViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D05FE727F555D900BCA707 /* LoginViewProtocol.swift */; };
+		56D05FEB27F55BA600BCA707 /* LoginPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D05FEA27F55BA600BCA707 /* LoginPresenterProtocol.swift */; };
 		56D05FED27F55C2300BCA707 /* LoginPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D05FEC27F55C2300BCA707 /* LoginPresenterImpl.swift */; };
-		56D05FEF27F55CDB00BCA707 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D05FEE27F55CDB00BCA707 /* LoginInteractor.swift */; };
+		56D05FEF27F55CDB00BCA707 /* LoginInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D05FEE27F55CDB00BCA707 /* LoginInteractorProtocol.swift */; };
 		56D05FF127F55D5600BCA707 /* LoginInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D05FF027F55D5600BCA707 /* LoginInteractorOutput.swift */; };
+		56DC890427F761B2006B1858 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 56DC890327F761B2006B1858 /* CombineMoya */; };
+		56DC890627F761B2006B1858 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 56DC890527F761B2006B1858 /* Moya */; };
+		56DC890827F761B2006B1858 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 56DC890727F761B2006B1858 /* ReactiveMoya */; };
+		56DC890A27F761B2006B1858 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 56DC890927F761B2006B1858 /* RxMoya */; };
+		56F87D4927F6A7260047D897 /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = 56F87D4827F6A7260047D897 /* netfox */; };
+		56F87D4C27F6A7590047D897 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 56F87D4B27F6A7590047D897 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,10 +68,21 @@
 		56743D4B27F35F1C00ECBC1B /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		568A240A27F4430F007EB3AB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		568A240B27F4430F007EB3AB /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		56D05FE727F555D900BCA707 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		56D05FEA27F55BA600BCA707 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		56CF11D327F600EA009CD8C3 /* LoginInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorImpl.swift; sourceTree = "<group>"; };
+		56CF11DC27F601F8009CD8C3 /* AuthApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
+		56CF11DE27F60215009CD8C3 /* AuthNetworkManagerImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthNetworkManagerImpl.swift; sourceTree = "<group>"; };
+		56CF11E027F60226009CD8C3 /* AuthNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthNetworkManager.swift; sourceTree = "<group>"; };
+		56CF11ED27F607BB009CD8C3 /* LoginDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataResponse.swift; sourceTree = "<group>"; };
+		56CF11EF27F607C5009CD8C3 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		56CF11F527F60BD2009CD8C3 /* UserDefaultHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultHelper.swift; sourceTree = "<group>"; };
+		56CF11F727F60C10009CD8C3 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		56CF11F927F60C2F009CD8C3 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		56CF11FB27F60DE2009CD8C3 /* LoginRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouterImpl.swift; sourceTree = "<group>"; };
+		56CF11FD27F60DED009CD8C3 /* LoginRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouterProtocol.swift; sourceTree = "<group>"; };
+		56D05FE727F555D900BCA707 /* LoginViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewProtocol.swift; sourceTree = "<group>"; };
+		56D05FEA27F55BA600BCA707 /* LoginPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterProtocol.swift; sourceTree = "<group>"; };
 		56D05FEC27F55C2300BCA707 /* LoginPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterImpl.swift; sourceTree = "<group>"; };
-		56D05FEE27F55CDB00BCA707 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		56D05FEE27F55CDB00BCA707 /* LoginInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorProtocol.swift; sourceTree = "<group>"; };
 		56D05FF027F55D5600BCA707 /* LoginInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorOutput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +91,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56DC890A27F761B2006B1858 /* RxMoya in Frameworks */,
+				56F87D4C27F6A7590047D897 /* Kingfisher in Frameworks */,
+				56F87D4927F6A7260047D897 /* netfox in Frameworks */,
+				56DC890627F761B2006B1858 /* Moya in Frameworks */,
+				56DC890827F761B2006B1858 /* ReactiveMoya in Frameworks */,
+				56DC890427F761B2006B1858 /* CombineMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +122,8 @@
 		5612AFED27F3026E00219CF6 /* ZWallet */ = {
 			isa = PBXGroup;
 			children = (
+				56CF11D627F601BE009CD8C3 /* Network */,
+				56CF11F127F60B91009CD8C3 /* Core */,
 				568A23FE27F430A8007EB3AB /* Module */,
 				5612B00227F302E700219CF6 /* Font */,
 				5612AFEE27F3026E00219CF6 /* AppDelegate.swift */,
@@ -136,6 +172,7 @@
 		568A23FF27F430B3007EB3AB /* LoginModule */ = {
 			isa = PBXGroup;
 			children = (
+				56F87D4627F6A5EF0047D897 /* Entity */,
 				568A240527F4315C007EB3AB /* View */,
 				568A240427F43156007EB3AB /* Router */,
 				568A240327F4314D007EB3AB /* Presenter */,
@@ -155,8 +192,9 @@
 		568A240227F43143007EB3AB /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				56D05FEE27F55CDB00BCA707 /* LoginInteractor.swift */,
+				56D05FEE27F55CDB00BCA707 /* LoginInteractorProtocol.swift */,
 				56D05FF027F55D5600BCA707 /* LoginInteractorOutput.swift */,
+				56CF11D327F600EA009CD8C3 /* LoginInteractorImpl.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -164,7 +202,7 @@
 		568A240327F4314D007EB3AB /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				56D05FEA27F55BA600BCA707 /* LoginPresenter.swift */,
+				56D05FEA27F55BA600BCA707 /* LoginPresenterProtocol.swift */,
 				56D05FEC27F55C2300BCA707 /* LoginPresenterImpl.swift */,
 			);
 			path = Presenter;
@@ -173,6 +211,8 @@
 		568A240427F43156007EB3AB /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				56CF11FB27F60DE2009CD8C3 /* LoginRouterImpl.swift */,
+				56CF11FD27F60DED009CD8C3 /* LoginRouterProtocol.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -182,9 +222,110 @@
 			children = (
 				568A240A27F4430F007EB3AB /* LoginViewController.swift */,
 				568A240B27F4430F007EB3AB /* LoginViewController.xib */,
-				56D05FE727F555D900BCA707 /* LoginView.swift */,
+				56D05FE727F555D900BCA707 /* LoginViewProtocol.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		56CF11D527F601B1009CD8C3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				56CF11D727F601C7009CD8C3 /* Entity */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		56CF11D627F601BE009CD8C3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				56CF11DA27F601D9009CD8C3 /* Invoice */,
+				56CF11D927F601D4009CD8C3 /* Balance */,
+				56CF11D827F601CF009CD8C3 /* Auth */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		56CF11D727F601C7009CD8C3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		56CF11D827F601CF009CD8C3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				56CF11DB27F601E4009CD8C3 /* Response */,
+				56CF11DC27F601F8009CD8C3 /* AuthApi.swift */,
+				56CF11DE27F60215009CD8C3 /* AuthNetworkManagerImpl.swift */,
+				56CF11E027F60226009CD8C3 /* AuthNetworkManager.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		56CF11D927F601D4009CD8C3 /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Balance;
+			sourceTree = "<group>";
+		};
+		56CF11DA27F601D9009CD8C3 /* Invoice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Invoice;
+			sourceTree = "<group>";
+		};
+		56CF11DB27F601E4009CD8C3 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		56CF11F127F60B91009CD8C3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				56CF11F427F60BC0009CD8C3 /* Extension */,
+				56CF11F327F60BB6009CD8C3 /* Helper */,
+				56CF11F227F60BB0009CD8C3 /* Component */,
+				56CF11D527F601B1009CD8C3 /* Data */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		56CF11F227F60BB0009CD8C3 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		56CF11F327F60BB6009CD8C3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				56CF11F527F60BD2009CD8C3 /* UserDefaultHelper.swift */,
+				56CF11F727F60C10009CD8C3 /* AppRouter.swift */,
+				56CF11F927F60C2F009CD8C3 /* AppConstant.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		56CF11F427F60BC0009CD8C3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		56F87D4627F6A5EF0047D897 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				56CF11ED27F607BB009CD8C3 /* LoginDataResponse.swift */,
+				56CF11EF27F607C5009CD8C3 /* LoginResponse.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +344,14 @@
 			dependencies = (
 			);
 			name = ZWallet;
+			packageProductDependencies = (
+				56F87D4827F6A7260047D897 /* netfox */,
+				56F87D4B27F6A7590047D897 /* Kingfisher */,
+				56DC890327F761B2006B1858 /* CombineMoya */,
+				56DC890527F761B2006B1858 /* Moya */,
+				56DC890727F761B2006B1858 /* ReactiveMoya */,
+				56DC890927F761B2006B1858 /* RxMoya */,
+			);
 			productName = ZWallet;
 			productReference = 5612AFEB27F3026E00219CF6 /* ZWallet.app */;
 			productType = "com.apple.product-type.application";
@@ -231,6 +380,12 @@
 				Base,
 			);
 			mainGroup = 5612AFE227F3026E00219CF6;
+			packageReferences = (
+				56CF11E227F60532009CD8C3 /* XCRemoteSwiftPackageReference "Moya" */,
+				56F87D4727F6A7260047D897 /* XCRemoteSwiftPackageReference "netfox" */,
+				56F87D4A27F6A7590047D897 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				56DC890227F761B2006B1858 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 5612AFEC27F3026E00219CF6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -266,16 +421,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56D05FEB27F55BA600BCA707 /* LoginPresenter.swift in Sources */,
+				56CF11FE27F60DED009CD8C3 /* LoginRouterProtocol.swift in Sources */,
+				56D05FEB27F55BA600BCA707 /* LoginPresenterProtocol.swift in Sources */,
+				56CF11FC27F60DE2009CD8C3 /* LoginRouterImpl.swift in Sources */,
+				56CF11E127F60226009CD8C3 /* AuthNetworkManager.swift in Sources */,
+				56CF11F827F60C10009CD8C3 /* AppRouter.swift in Sources */,
+				56CF11DD27F601F8009CD8C3 /* AuthApi.swift in Sources */,
 				5612AFF327F3026E00219CF6 /* ViewController.swift in Sources */,
-				56D05FE827F555D900BCA707 /* LoginView.swift in Sources */,
+				56CF11EE27F607BB009CD8C3 /* LoginDataResponse.swift in Sources */,
+				56D05FE827F555D900BCA707 /* LoginViewProtocol.swift in Sources */,
 				5612AFEF27F3026E00219CF6 /* AppDelegate.swift in Sources */,
 				5612AFF127F3026E00219CF6 /* SceneDelegate.swift in Sources */,
 				56D05FF127F55D5600BCA707 /* LoginInteractorOutput.swift in Sources */,
+				56CF11D427F600EA009CD8C3 /* LoginInteractorImpl.swift in Sources */,
+				56CF11FA27F60C2F009CD8C3 /* AppConstant.swift in Sources */,
+				56CF11F627F60BD2009CD8C3 /* UserDefaultHelper.swift in Sources */,
 				565AD02A27F483BB00BF2BC3 /* RegisterViewController.swift in Sources */,
 				568A240C27F4430F007EB3AB /* LoginViewController.swift in Sources */,
+				56CF11DF27F60215009CD8C3 /* AuthNetworkManagerImpl.swift in Sources */,
 				56743D4C27F35F1C00ECBC1B /* ResetPasswordViewController.swift in Sources */,
-				56D05FEF27F55CDB00BCA707 /* LoginInteractor.swift in Sources */,
+				56D05FEF27F55CDB00BCA707 /* LoginInteractorProtocol.swift in Sources */,
+				56CF11F027F607C5009CD8C3 /* LoginResponse.swift in Sources */,
 				56D05FED27F55C2300BCA707 /* LoginPresenterImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +593,7 @@
 				INFOPLIST_FILE = ZWallet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,6 +620,7 @@
 				INFOPLIST_FILE = ZWallet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,6 +658,74 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		56CF11E227F60532009CD8C3 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+		56DC890227F761B2006B1858 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		56F87D4727F6A7260047D897 /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		56F87D4A27F6A7590047D897 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		56DC890327F761B2006B1858 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56DC890227F761B2006B1858 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		56DC890527F761B2006B1858 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56DC890227F761B2006B1858 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		56DC890727F761B2006B1858 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56DC890227F761B2006B1858 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		56DC890927F761B2006B1858 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56DC890227F761B2006B1858 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		56F87D4827F6A7260047D897 /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56F87D4727F6A7260047D897 /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+		56F87D4B27F6A7590047D897 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56F87D4A27F6A7590047D897 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5612AFE327F3026E00219CF6 /* Project object */;
 }

@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol LoginInteractorOutputProtocol {
+    func authenticationResult(isSuccess: Bool)
+}

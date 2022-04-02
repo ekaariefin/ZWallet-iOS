@@ -18,27 +18,58 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var iconPass: UIImageView!
     
     //UNDERLINE
-    
     @IBOutlet weak var linePass: UIView!
     @IBOutlet weak var lineEmail: UIView!
     
+    //LABEL
+    @IBOutlet weak var errorMessage: UILabel!
     
-    var presenter: LoginPresenter?
+    
+    //PRESENTER
+    var presenter: LoginPresenterProtocol?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         inputEmail.delegate = self
         inputPass.delegate = self
+        errorMessage.text = ""
         self.inputPass.isSecureTextEntry = true
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+    }
     
+    
+    
+    @IBAction func btnLoginOnClick(_ sender: Any) {
+        print("Login Button Clicked")
+        let email: String = inputEmail.text ?? ""
+        let password: String = inputPass.text ?? ""
+        print(email)
+        print(password)
+        self.presenter?.login(email: email, password: password)
     }
     
 
+    
+}
+
+extension LoginViewController: LoginViewProtocol {
+    func showSuccess() {
+        errorMessage.text = "Login Berhasil!"
+        errorMessage.textColor = .cyan
+    }
+    
+    func showError() {
+        iconEmail.image = UIImage(systemName: "envelope")?.withTintColor(.red, renderingMode: .alwaysOriginal)
+        lineEmail.backgroundColor = .red
+        iconPass.image = UIImage(systemName: "lock")?.withTintColor(.red, renderingMode: .alwaysOriginal)
+        linePass.backgroundColor = .red
+        errorMessage.text = "Username atau Password salah!"
+        errorMessage.textColor = .red
+    }
 }
 
 extension LoginViewController: UITextFieldDelegate {
@@ -80,17 +111,6 @@ extension LoginViewController: UITextFieldDelegate {
     
 }
 
-extension LoginViewController: LoginView {
-    func showSuccess() {
-        //TODO: DO SOME ACTION HERE
-    }
-    
-    func showError() {
-        //TODO: DO SOME ACTION HERE
-    }
-    
-    
-}
 
 enum NunitoFonts {
     static func nunitoLight(sizeOf size: CGFloat) -> UIFont? {

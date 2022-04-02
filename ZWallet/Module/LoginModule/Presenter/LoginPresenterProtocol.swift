@@ -8,6 +8,6 @@
 import Foundation
 
 
-protocol LoginPresenter {
+protocol LoginPresenterProtocol {
     func login(email: String, password: String)
 }
