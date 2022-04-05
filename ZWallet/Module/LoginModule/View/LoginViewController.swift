@@ -37,18 +37,10 @@ class LoginViewController: UIViewController {
         self.inputPass.isSecureTextEntry = true
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-    }
-    
-    
     
     @IBAction func btnLoginOnClick(_ sender: Any) {
-        print("Login Button Clicked")
         let email: String = inputEmail.text ?? ""
         let password: String = inputPass.text ?? ""
-        print(email)
-        print(password)
         self.presenter?.login(email: email, password: password)
     }
     
@@ -57,11 +49,6 @@ class LoginViewController: UIViewController {
 }
 
 extension LoginViewController: LoginViewProtocol {
-    func showSuccess() {
-        errorMessage.text = "Login Berhasil!"
-        errorMessage.textColor = .cyan
-    }
-    
     func showError() {
         iconEmail.image = UIImage(systemName: "envelope")?.withTintColor(.red, renderingMode: .alwaysOriginal)
         lineEmail.backgroundColor = .red

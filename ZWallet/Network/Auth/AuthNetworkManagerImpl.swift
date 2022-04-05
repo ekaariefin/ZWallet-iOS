@@ -14,11 +14,7 @@ public class AuthNetworkManagerImpl: AuthNetworkManager {
         
     }
 
-    public func login(
-        email: String,
-        password: String,
-        completion: @escaping (LoginDataResponse?, Error?) -> ()) {
-            
+    public func login(email: String, password: String, completion: @escaping (LoginDataResponse?, Error?) -> ()) {
         let provider = MoyaProvider<AuthApi>()
         provider.request(.login(email: email, password: password)) { response in
             switch response {
@@ -30,7 +26,7 @@ public class AuthNetworkManagerImpl: AuthNetworkManager {
                 } catch let error {
                     completion(nil, error)
                 }
-            case.failure(let error):
+            case .failure(let error):
                 completion(nil, error)
             }
         }
