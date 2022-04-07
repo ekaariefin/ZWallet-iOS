@@ -18,6 +18,43 @@
 		5612B00C27F3036400219CF6 /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00627F3036400219CF6 /* NunitoSans-SemiBold.ttf */; };
 		5612B00D27F3036400219CF6 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00727F3036400219CF6 /* NunitoSans-Bold.ttf */; };
 		5612B00E27F3036400219CF6 /* NunitoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5612B00827F3036400219CF6 /* NunitoSans-Italic.ttf */; };
+		561B853927FEB1A7003F0688 /* HomePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B852427FEB1A7003F0688 /* HomePresenterImpl.swift */; };
+		561B853A27FEB1A7003F0688 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B852527FEB1A7003F0688 /* HomePresenter.swift */; };
+		561B853B27FEB1A7003F0688 /* HomeRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B852727FEB1A7003F0688 /* HomeRouterImpl.swift */; };
+		561B853C27FEB1A7003F0688 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B852827FEB1A7003F0688 /* HomeRouter.swift */; };
+		561B853D27FEB1A7003F0688 /* DashboardCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B852B27FEB1A7003F0688 /* DashboardCellDelegate.swift */; };
+		561B853E27FEB1A7003F0688 /* DashboardHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B852C27FEB1A7003F0688 /* DashboardHomeCell.swift */; };
+		561B853F27FEB1A7003F0688 /* DashboardHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561B852D27FEB1A7003F0688 /* DashboardHomeCell.xib */; };
+		561B854027FEB1A7003F0688 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B852F27FEB1A7003F0688 /* HomeView.swift */; };
+		561B854127FEB1A7003F0688 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B853027FEB1A7003F0688 /* HomeViewController.swift */; };
+		561B854227FEB1A7003F0688 /* HomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B853127FEB1A7003F0688 /* HomeDataSource.swift */; };
+		561B854327FEB1A7003F0688 /* HomeInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B853327FEB1A7003F0688 /* HomeInteractorOutput.swift */; };
+		561B854427FEB1A7003F0688 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B853427FEB1A7003F0688 /* HomeInteractor.swift */; };
+		561B854527FEB1A7003F0688 /* HomeInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B853527FEB1A7003F0688 /* HomeInteractorImpl.swift */; };
+		561B854627FEB1A7003F0688 /* UserProfileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B853727FEB1A7003F0688 /* UserProfileEntity.swift */; };
+		561B854727FEB1A7003F0688 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B853827FEB1A7003F0688 /* UserProfile.swift */; };
+		561B855B27FEB1B2003F0688 /* HistoryPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B854A27FEB1B2003F0688 /* HistoryPresenterImpl.swift */; };
+		561B855C27FEB1B2003F0688 /* HistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B854B27FEB1B2003F0688 /* HistoryPresenter.swift */; };
+		561B855D27FEB1B2003F0688 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B854E27FEB1B2003F0688 /* HeaderCell.swift */; };
+		561B855E27FEB1B2003F0688 /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561B855027FEB1B2003F0688 /* HistoryViewController.xib */; };
+		561B855F27FEB1B2003F0688 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B855127FEB1B2003F0688 /* HistoryView.swift */; };
+		561B856027FEB1B2003F0688 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B855227FEB1B2003F0688 /* HistoryViewController.swift */; };
+		561B856127FEB1B2003F0688 /* HistoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B855327FEB1B2003F0688 /* HistoryDataSource.swift */; };
+		561B856227FEB1B2003F0688 /* HistoryInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B855527FEB1B2003F0688 /* HistoryInteractorImpl.swift */; };
+		561B856327FEB1B2003F0688 /* HistoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B855627FEB1B2003F0688 /* HistoryInteractor.swift */; };
+		561B856427FEB1B2003F0688 /* HistoryInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B855727FEB1B2003F0688 /* HistoryInteractorOutput.swift */; };
+		561B856527FEB1B2003F0688 /* HistoryRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B855927FEB1B2003F0688 /* HistoryRouterImpl.swift */; };
+		561B856627FEB1B2003F0688 /* HistoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B855A27FEB1B2003F0688 /* HistoryRouter.swift */; };
+		561B856D27FEB1CF003F0688 /* InvoiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B856727FEB1CF003F0688 /* InvoiceApi.swift */; };
+		561B856E27FEB1CF003F0688 /* GetInvoiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B856927FEB1CF003F0688 /* GetInvoiceResponse.swift */; };
+		561B856F27FEB1CF003F0688 /* GetInvoiceDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B856A27FEB1CF003F0688 /* GetInvoiceDataResponse.swift */; };
+		561B857027FEB1CF003F0688 /* InvoiceNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B856B27FEB1CF003F0688 /* InvoiceNetworkManagerImpl.swift */; };
+		561B857127FEB1CF003F0688 /* InvoiceNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B856C27FEB1CF003F0688 /* InvoiceNetworkManager.swift */; };
+		561B857527FEB1E9003F0688 /* TransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561B857327FEB1E9003F0688 /* TransactionCell.xib */; };
+		561B857627FEB1E9003F0688 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B857427FEB1E9003F0688 /* TransactionCell.swift */; };
+		561B857827FEB1F6003F0688 /* TransactionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B857727FEB1F6003F0688 /* TransactionEntity.swift */; };
+		561B857A27FEB271003F0688 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561B857927FEB271003F0688 /* HomeViewController.xib */; };
+		561B857C27FEB27F003F0688 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561B857B27FEB27F003F0688 /* HeaderCell.xib */; };
 		5627966527F854C20082B2CC /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5627966427F854C20082B2CC /* IntExtension.swift */; };
 		5627966727F854D10082B2CC /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5627966627F854D10082B2CC /* UIViewExtension.swift */; };
 		565AD02A27F483BB00BF2BC3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565AD02927F483BB00BF2BC3 /* RegisterViewController.swift */; };
@@ -78,6 +115,43 @@
 		5612B00627F3036400219CF6 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		5612B00727F3036400219CF6 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
 		5612B00827F3036400219CF6 /* NunitoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Italic.ttf"; sourceTree = "<group>"; };
+		561B852427FEB1A7003F0688 /* HomePresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenterImpl.swift; sourceTree = "<group>"; };
+		561B852527FEB1A7003F0688 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		561B852727FEB1A7003F0688 /* HomeRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouterImpl.swift; sourceTree = "<group>"; };
+		561B852827FEB1A7003F0688 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		561B852B27FEB1A7003F0688 /* DashboardCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCellDelegate.swift; sourceTree = "<group>"; };
+		561B852C27FEB1A7003F0688 /* DashboardHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardHomeCell.swift; sourceTree = "<group>"; };
+		561B852D27FEB1A7003F0688 /* DashboardHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardHomeCell.xib; sourceTree = "<group>"; };
+		561B852F27FEB1A7003F0688 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		561B853027FEB1A7003F0688 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		561B853127FEB1A7003F0688 /* HomeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDataSource.swift; sourceTree = "<group>"; };
+		561B853327FEB1A7003F0688 /* HomeInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractorOutput.swift; sourceTree = "<group>"; };
+		561B853427FEB1A7003F0688 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		561B853527FEB1A7003F0688 /* HomeInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractorImpl.swift; sourceTree = "<group>"; };
+		561B853727FEB1A7003F0688 /* UserProfileEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileEntity.swift; sourceTree = "<group>"; };
+		561B853827FEB1A7003F0688 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		561B854A27FEB1B2003F0688 /* HistoryPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryPresenterImpl.swift; sourceTree = "<group>"; };
+		561B854B27FEB1B2003F0688 /* HistoryPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryPresenter.swift; sourceTree = "<group>"; };
+		561B854E27FEB1B2003F0688 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		561B855027FEB1B2003F0688 /* HistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
+		561B855127FEB1B2003F0688 /* HistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		561B855227FEB1B2003F0688 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		561B855327FEB1B2003F0688 /* HistoryDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDataSource.swift; sourceTree = "<group>"; };
+		561B855527FEB1B2003F0688 /* HistoryInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryInteractorImpl.swift; sourceTree = "<group>"; };
+		561B855627FEB1B2003F0688 /* HistoryInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryInteractor.swift; sourceTree = "<group>"; };
+		561B855727FEB1B2003F0688 /* HistoryInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryInteractorOutput.swift; sourceTree = "<group>"; };
+		561B855927FEB1B2003F0688 /* HistoryRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryRouterImpl.swift; sourceTree = "<group>"; };
+		561B855A27FEB1B2003F0688 /* HistoryRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryRouter.swift; sourceTree = "<group>"; };
+		561B856727FEB1CF003F0688 /* InvoiceApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceApi.swift; sourceTree = "<group>"; };
+		561B856927FEB1CF003F0688 /* GetInvoiceResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvoiceResponse.swift; sourceTree = "<group>"; };
+		561B856A27FEB1CF003F0688 /* GetInvoiceDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvoiceDataResponse.swift; sourceTree = "<group>"; };
+		561B856B27FEB1CF003F0688 /* InvoiceNetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceNetworkManagerImpl.swift; sourceTree = "<group>"; };
+		561B856C27FEB1CF003F0688 /* InvoiceNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceNetworkManager.swift; sourceTree = "<group>"; };
+		561B857327FEB1E9003F0688 /* TransactionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionCell.xib; sourceTree = "<group>"; };
+		561B857427FEB1E9003F0688 /* TransactionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		561B857727FEB1F6003F0688 /* TransactionEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionEntity.swift; path = Entity/TransactionEntity.swift; sourceTree = SOURCE_ROOT; };
+		561B857927FEB271003F0688 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		561B857B27FEB27F003F0688 /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
 		5627966427F854C20082B2CC /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		5627966627F854D10082B2CC /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		565AD02927F483BB00BF2BC3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -183,6 +257,164 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		561B852327FEB1A7003F0688 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				561B852427FEB1A7003F0688 /* HomePresenterImpl.swift */,
+				561B852527FEB1A7003F0688 /* HomePresenter.swift */,
+			);
+			name = Presenter;
+			path = "../../../../../Desktop/ZWallet-IoS/ZWallet/Module/HomeModule/Presenter";
+			sourceTree = "<group>";
+		};
+		561B852627FEB1A7003F0688 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				561B852727FEB1A7003F0688 /* HomeRouterImpl.swift */,
+				561B852827FEB1A7003F0688 /* HomeRouter.swift */,
+			);
+			name = Router;
+			path = "../../../../../Desktop/ZWallet-IoS/ZWallet/Module/HomeModule/Router";
+			sourceTree = "<group>";
+		};
+		561B852927FEB1A7003F0688 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				561B852A27FEB1A7003F0688 /* Cell */,
+				561B852E27FEB1A7003F0688 /* ViewController */,
+			);
+			name = View;
+			path = "../../../../../Desktop/ZWallet-IoS/ZWallet/Module/HomeModule/View";
+			sourceTree = "<group>";
+		};
+		561B852A27FEB1A7003F0688 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				561B852B27FEB1A7003F0688 /* DashboardCellDelegate.swift */,
+				561B852C27FEB1A7003F0688 /* DashboardHomeCell.swift */,
+				561B852D27FEB1A7003F0688 /* DashboardHomeCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		561B852E27FEB1A7003F0688 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				561B857927FEB271003F0688 /* HomeViewController.xib */,
+				561B852F27FEB1A7003F0688 /* HomeView.swift */,
+				561B853027FEB1A7003F0688 /* HomeViewController.swift */,
+				561B853127FEB1A7003F0688 /* HomeDataSource.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		561B853227FEB1A7003F0688 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				561B853327FEB1A7003F0688 /* HomeInteractorOutput.swift */,
+				561B853427FEB1A7003F0688 /* HomeInteractor.swift */,
+				561B853527FEB1A7003F0688 /* HomeInteractorImpl.swift */,
+			);
+			name = Interactor;
+			path = "../../../../../Desktop/ZWallet-IoS/ZWallet/Module/HomeModule/Interactor";
+			sourceTree = "<group>";
+		};
+		561B853627FEB1A7003F0688 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				561B853727FEB1A7003F0688 /* UserProfileEntity.swift */,
+				561B853827FEB1A7003F0688 /* UserProfile.swift */,
+			);
+			name = Entity;
+			path = "../../../../../Desktop/ZWallet-IoS/ZWallet/Module/HomeModule/Entity";
+			sourceTree = "<group>";
+		};
+		561B854827FEB1B2003F0688 /* HistoryModule */ = {
+			isa = PBXGroup;
+			children = (
+				561B854927FEB1B2003F0688 /* Presenter */,
+				561B854C27FEB1B2003F0688 /* View */,
+				561B855427FEB1B2003F0688 /* Interactor */,
+				561B855827FEB1B2003F0688 /* Router */,
+			);
+			path = HistoryModule;
+			sourceTree = "<group>";
+		};
+		561B854927FEB1B2003F0688 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				561B854A27FEB1B2003F0688 /* HistoryPresenterImpl.swift */,
+				561B854B27FEB1B2003F0688 /* HistoryPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		561B854C27FEB1B2003F0688 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				561B854D27FEB1B2003F0688 /* Cell */,
+				561B854F27FEB1B2003F0688 /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		561B854D27FEB1B2003F0688 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				561B857B27FEB27F003F0688 /* HeaderCell.xib */,
+				561B854E27FEB1B2003F0688 /* HeaderCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		561B854F27FEB1B2003F0688 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				561B855027FEB1B2003F0688 /* HistoryViewController.xib */,
+				561B855127FEB1B2003F0688 /* HistoryView.swift */,
+				561B855227FEB1B2003F0688 /* HistoryViewController.swift */,
+				561B855327FEB1B2003F0688 /* HistoryDataSource.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		561B855427FEB1B2003F0688 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				561B855527FEB1B2003F0688 /* HistoryInteractorImpl.swift */,
+				561B855627FEB1B2003F0688 /* HistoryInteractor.swift */,
+				561B855727FEB1B2003F0688 /* HistoryInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		561B855827FEB1B2003F0688 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				561B855927FEB1B2003F0688 /* HistoryRouterImpl.swift */,
+				561B855A27FEB1B2003F0688 /* HistoryRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		561B856827FEB1CF003F0688 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				561B856927FEB1CF003F0688 /* GetInvoiceResponse.swift */,
+				561B856A27FEB1CF003F0688 /* GetInvoiceDataResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		561B857227FEB1E9003F0688 /* TransactionCell */ = {
+			isa = PBXGroup;
+			children = (
+				561B857327FEB1E9003F0688 /* TransactionCell.xib */,
+				561B857427FEB1E9003F0688 /* TransactionCell.swift */,
+			);
+			path = TransactionCell;
+			sourceTree = "<group>";
+		};
 		565AD02827F483A600BF2BC3 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +428,11 @@
 		566EB80D27FAA1510072C624 /* HomeModule */ = {
 			isa = PBXGroup;
 			children = (
+				561B853627FEB1A7003F0688 /* Entity */,
+				561B853227FEB1A7003F0688 /* Interactor */,
+				561B852327FEB1A7003F0688 /* Presenter */,
+				561B852627FEB1A7003F0688 /* Router */,
+				561B852927FEB1A7003F0688 /* View */,
 			);
 			path = HomeModule;
 			sourceTree = "<group>";
@@ -510,6 +747,7 @@
 		568A23FE27F430A8007EB3AB /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				561B854827FEB1B2003F0688 /* HistoryModule */,
 				567E574627FC93AE00A40F19 /* PINModule */,
 				567E574027FC938600A40F19 /* OTPModule */,
 				567E573A27FC935500A40F19 /* ProfileModule */,
@@ -605,6 +843,7 @@
 		56CF11D727F601C7009CD8C3 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				561B857727FEB1F6003F0688 /* TransactionEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -623,6 +862,10 @@
 		56CF11DA27F601D9009CD8C3 /* Invoice */ = {
 			isa = PBXGroup;
 			children = (
+				561B856727FEB1CF003F0688 /* InvoiceApi.swift */,
+				561B856C27FEB1CF003F0688 /* InvoiceNetworkManager.swift */,
+				561B856B27FEB1CF003F0688 /* InvoiceNetworkManagerImpl.swift */,
+				561B856827FEB1CF003F0688 /* Response */,
 			);
 			path = Invoice;
 			sourceTree = "<group>";
@@ -648,6 +891,7 @@
 		56CF11F227F60BB0009CD8C3 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				561B857227FEB1E9003F0688 /* TransactionCell */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -754,12 +998,17 @@
 			files = (
 				565AD02C27F483D300BF2BC3 /* RegisterViewController.xib in Resources */,
 				568A240D27F4430F007EB3AB /* LoginViewController.xib in Resources */,
+				561B857A27FEB271003F0688 /* HomeViewController.xib in Resources */,
 				5612B00B27F3036400219CF6 /* NunitoSans-Black.ttf in Resources */,
 				567E571427FC860D00A40F19 /* hatta.jpeg in Resources */,
 				5612AFFB27F3026E00219CF6 /* LaunchScreen.storyboard in Resources */,
 				5612AFF827F3026E00219CF6 /* Assets.xcassets in Resources */,
+				561B857527FEB1E9003F0688 /* TransactionCell.xib in Resources */,
+				561B857C27FEB27F003F0688 /* HeaderCell.xib in Resources */,
 				5612B00E27F3036400219CF6 /* NunitoSans-Italic.ttf in Resources */,
+				561B853F27FEB1A7003F0688 /* DashboardHomeCell.xib in Resources */,
 				5612B00A27F3036400219CF6 /* NunitoSans-Regular.ttf in Resources */,
+				561B855E27FEB1B2003F0688 /* HistoryViewController.xib in Resources */,
 				5612B00927F3036400219CF6 /* NunitoSans-Light.ttf in Resources */,
 				5612B00C27F3036400219CF6 /* NunitoSans-SemiBold.ttf in Resources */,
 				5612B00D27F3036400219CF6 /* NunitoSans-Bold.ttf in Resources */,
@@ -778,38 +1027,70 @@
 				566EB82C27FAAE960072C624 /* BalanceNetworkManager.swift in Sources */,
 				5627966527F854C20082B2CC /* IntExtension.swift in Sources */,
 				56D05FEB27F55BA600BCA707 /* LoginPresenterProtocol.swift in Sources */,
+				561B854627FEB1A7003F0688 /* UserProfileEntity.swift in Sources */,
 				56CF11FC27F60DE2009CD8C3 /* LoginRouterImpl.swift in Sources */,
 				56CF11E127F60226009CD8C3 /* AuthNetworkManager.swift in Sources */,
 				56CF11F827F60C10009CD8C3 /* AppRouter.swift in Sources */,
 				5627966727F854D10082B2CC /* UIViewExtension.swift in Sources */,
 				56CF11DD27F601F8009CD8C3 /* AuthApi.swift in Sources */,
+				561B857627FEB1E9003F0688 /* TransactionCell.swift in Sources */,
+				561B856F27FEB1CF003F0688 /* GetInvoiceDataResponse.swift in Sources */,
+				561B856127FEB1B2003F0688 /* HistoryDataSource.swift in Sources */,
 				567E572627FC90B200A40F19 /* RegisterInteractorOutput.swift in Sources */,
+				561B854727FEB1A7003F0688 /* UserProfile.swift in Sources */,
 				5612AFF327F3026E00219CF6 /* ViewController.swift in Sources */,
 				567E572A27FC90C900A40F19 /* RegisterInteractorImpl.swift in Sources */,
+				561B857027FEB1CF003F0688 /* InvoiceNetworkManagerImpl.swift in Sources */,
 				567E572C27FC90F200A40F19 /* RegisterViewProtocol.swift in Sources */,
 				566EB82E27FAAE960072C624 /* BalanceNetworkManagerImpl.swift in Sources */,
+				561B856D27FEB1CF003F0688 /* InvoiceApi.swift in Sources */,
 				56CF11EE27F607BB009CD8C3 /* LoginDataResponse.swift in Sources */,
 				567E572027FC908500A40F19 /* RegisterRouterProtocol.swift in Sources */,
 				56D05FE827F555D900BCA707 /* LoginViewProtocol.swift in Sources */,
+				561B854027FEB1A7003F0688 /* HomeView.swift in Sources */,
 				5612AFEF27F3026E00219CF6 /* AppDelegate.swift in Sources */,
+				561B853E27FEB1A7003F0688 /* DashboardHomeCell.swift in Sources */,
 				567E572227FC909800A40F19 /* RegisterPresenterProtocol.swift in Sources */,
 				567E572427FC90A300A40F19 /* RegisterPresenterImpl.swift in Sources */,
+				561B856227FEB1B2003F0688 /* HistoryInteractorImpl.swift in Sources */,
+				561B856327FEB1B2003F0688 /* HistoryInteractor.swift in Sources */,
 				5612AFF127F3026E00219CF6 /* SceneDelegate.swift in Sources */,
+				561B854227FEB1A7003F0688 /* HomeDataSource.swift in Sources */,
 				56D05FF127F55D5600BCA707 /* LoginInteractorOutput.swift in Sources */,
+				561B854327FEB1A7003F0688 /* HomeInteractorOutput.swift in Sources */,
+				561B853D27FEB1A7003F0688 /* DashboardCellDelegate.swift in Sources */,
+				561B853B27FEB1A7003F0688 /* HomeRouterImpl.swift in Sources */,
+				561B856E27FEB1CF003F0688 /* GetInvoiceResponse.swift in Sources */,
+				561B855D27FEB1B2003F0688 /* HeaderCell.swift in Sources */,
+				561B853A27FEB1A7003F0688 /* HomePresenter.swift in Sources */,
 				567E571E27FC907700A40F19 /* RegisterRouterImpl.swift in Sources */,
+				561B854527FEB1A7003F0688 /* HomeInteractorImpl.swift in Sources */,
+				561B854127FEB1A7003F0688 /* HomeViewController.swift in Sources */,
 				56CF11D427F600EA009CD8C3 /* LoginInteractorImpl.swift in Sources */,
 				56CF11FA27F60C2F009CD8C3 /* AppConstant.swift in Sources */,
+				561B855C27FEB1B2003F0688 /* HistoryPresenter.swift in Sources */,
 				56CF11F627F60BD2009CD8C3 /* UserDefaultHelper.swift in Sources */,
 				565AD02A27F483BB00BF2BC3 /* RegisterViewController.swift in Sources */,
 				566EB83227FAAEA80072C624 /* GetBalanceResponse.swift in Sources */,
+				561B856527FEB1B2003F0688 /* HistoryRouterImpl.swift in Sources */,
 				568A240C27F4430F007EB3AB /* LoginViewController.swift in Sources */,
 				56CF11DF27F60215009CD8C3 /* AuthNetworkManagerImpl.swift in Sources */,
+				561B857127FEB1CF003F0688 /* InvoiceNetworkManager.swift in Sources */,
 				56743D4C27F35F1C00ECBC1B /* ResetPasswordViewController.swift in Sources */,
 				56D05FEF27F55CDB00BCA707 /* LoginInteractorProtocol.swift in Sources */,
+				561B854427FEB1A7003F0688 /* HomeInteractor.swift in Sources */,
+				561B856427FEB1B2003F0688 /* HistoryInteractorOutput.swift in Sources */,
 				567E572827FC90BD00A40F19 /* RegisterInteractorProtocol.swift in Sources */,
+				561B855B27FEB1B2003F0688 /* HistoryPresenterImpl.swift in Sources */,
+				561B855F27FEB1B2003F0688 /* HistoryView.swift in Sources */,
+				561B856627FEB1B2003F0688 /* HistoryRouter.swift in Sources */,
 				566EB82D27FAAE960072C624 /* BalanceApi.swift in Sources */,
+				561B853C27FEB1A7003F0688 /* HomeRouter.swift in Sources */,
 				566EB83327FAAEA80072C624 /* GetBalanceDataResponse.swift in Sources */,
 				56CF11F027F607C5009CD8C3 /* LoginResponse.swift in Sources */,
+				561B856027FEB1B2003F0688 /* HistoryViewController.swift in Sources */,
+				561B857827FEB1F6003F0688 /* TransactionEntity.swift in Sources */,
+				561B853927FEB1A7003F0688 /* HomePresenterImpl.swift in Sources */,
 				56D05FED27F55C2300BCA707 /* LoginPresenterImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
