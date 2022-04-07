@@ -9,5 +9,6 @@ import Foundation
 
 protocol LoginViewProtocol {
     func showError()
+
 }
 

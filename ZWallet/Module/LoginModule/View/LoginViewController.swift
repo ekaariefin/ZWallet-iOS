@@ -44,6 +44,11 @@ class LoginViewController: UIViewController {
         self.presenter?.login(email: email, password: password)
     }
     
+    @IBAction func btnSignUpOnClick(_ sender: Any) {
+        self.presenter?.signUpOnClick(viewController: self)
+    }
+    
+    
 
     
 }

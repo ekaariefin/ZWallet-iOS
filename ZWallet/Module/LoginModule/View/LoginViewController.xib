@@ -23,7 +23,7 @@
                 <outlet property="inputPass" destination="QgV-QY-aI2" id="ay0-d4-MZW"/>
                 <outlet property="lineEmail" destination="suF-dQ-BxJ" id="mOM-uA-Hz4"/>
                 <outlet property="linePass" destination="eiU-FM-fHb" id="OwL-0w-ExF"/>
-                <outlet property="view" destination="AEe-1I-gpd" id="Wz9-TE-oP6"/>
+                <outlet property="view" destination="AEe-1I-gpd" id="ueS-ma-UB1"/>
             </connections>
         </placeholder>
         <view contentMode="scaleToFill" id="AEe-1I-gpd">
@@ -150,23 +150,6 @@ all the features in Zwallet.</string>
                                 <constraint firstAttribute="bottom" secondItem="eiU-FM-fHb" secondAttribute="bottom" id="vVG-rA-rEL"/>
                             </constraints>
                         </stackView>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5F3-dh-E0h">
-                            <rect key="frame" x="15" y="368" width="345" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="50" id="KV7-v5-Vav"/>
-                            </constraints>
-                            <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain" title="Login" cornerStyle="medium">
-                                <backgroundConfiguration key="background">
-                                    <color key="backgroundColor" name="AccentColor"/>
-                                </backgroundConfiguration>
-                                <fontDescription key="titleFontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="16"/>
-                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </buttonConfiguration>
-                            <connections>
-                                <action selector="btnLoginOnClick:" destination="-1" eventType="touchDown" id="aa3-gu-iXd"/>
-                            </connections>
-                        </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OmL-2e-XOj">
                             <rect key="frame" x="8" y="301" width="359" height="0.0"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -184,6 +167,54 @@ all the features in Zwallet.</string>
                                 <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </buttonConfiguration>
                         </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5F3-dh-E0h">
+                            <rect key="frame" x="15" y="344" width="345" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="KV7-v5-Vav"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Login" cornerStyle="medium">
+                                <backgroundConfiguration key="background">
+                                    <color key="backgroundColor" name="AccentColor"/>
+                                </backgroundConfiguration>
+                                <fontDescription key="titleFontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="16"/>
+                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="btnLoginOnClick:" destination="-1" eventType="touchDown" id="aa3-gu-iXd"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XRL-26-BJo">
+                            <rect key="frame" x="15" y="410" width="345" height="38"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account? Let's" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdw-08-Y2l">
+                                    <rect key="frame" x="43" y="8" width="187" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btx-gc-ndo">
+                                    <rect key="frame" x="225" y="1" width="75" height="31"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Sign Up">
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="btnSignUpOnClick:" destination="-1" eventType="touchUpInside" id="AKy-8o-o88"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="btx-gc-ndo" firstAttribute="top" secondItem="XRL-26-BJo" secondAttribute="top" constant="1" id="Fjm-Gc-HfI"/>
+                                <constraint firstAttribute="height" constant="38" id="QII-3N-ppT"/>
+                                <constraint firstItem="gdw-08-Y2l" firstAttribute="leading" secondItem="XRL-26-BJo" secondAttribute="leading" constant="43" id="UQl-7J-4Ne"/>
+                                <constraint firstAttribute="trailing" secondItem="btx-gc-ndo" secondAttribute="trailing" constant="45" id="cXj-Ta-fpY"/>
+                                <constraint firstItem="gdw-08-Y2l" firstAttribute="top" secondItem="XRL-26-BJo" secondAttribute="top" constant="8" id="e6B-t0-U8l"/>
+                                <constraint firstAttribute="bottom" secondItem="btx-gc-ndo" secondAttribute="bottom" constant="6" id="k3i-yX-WGO"/>
+                                <constraint firstAttribute="bottom" secondItem="gdw-08-Y2l" secondAttribute="bottom" constant="13" id="wbr-Vn-p8L"/>
+                            </constraints>
+                        </view>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
@@ -194,20 +225,25 @@ all the features in Zwallet.</string>
                         <constraint firstItem="7R3-p5-WGd" firstAttribute="top" secondItem="UU1-It-Bez" secondAttribute="bottom" constant="15" id="JkH-60-hWN"/>
                         <constraint firstItem="5F3-dh-E0h" firstAttribute="leading" secondItem="8n3-kW-pgP" secondAttribute="leading" constant="15" id="JuJ-EC-8Y2"/>
                         <constraint firstItem="7R3-p5-WGd" firstAttribute="leading" secondItem="8n3-kW-pgP" secondAttribute="leading" constant="15" id="MmD-0s-Tvb"/>
+                        <constraint firstItem="XRL-26-BJo" firstAttribute="leading" secondItem="8n3-kW-pgP" secondAttribute="leading" constant="15" id="NFL-oM-EBQ"/>
                         <constraint firstItem="OmL-2e-XOj" firstAttribute="leading" secondItem="8n3-kW-pgP" secondAttribute="leading" constant="8" id="OxO-9U-pd5"/>
                         <constraint firstItem="UU1-It-Bez" firstAttribute="top" secondItem="8n3-kW-pgP" secondAttribute="top" constant="40" id="R0M-Mx-rlT"/>
                         <constraint firstAttribute="trailing" secondItem="0Cz-MT-bI3" secondAttribute="trailing" constant="15" id="STD-lV-cwu"/>
                         <constraint firstItem="0Cz-MT-bI3" firstAttribute="leading" secondItem="8n3-kW-pgP" secondAttribute="leading" constant="15" id="TQp-uQ-a6G"/>
+                        <constraint firstItem="XRL-26-BJo" firstAttribute="leading" secondItem="8n3-kW-pgP" secondAttribute="leading" constant="15" id="VPq-zC-VNT"/>
+                        <constraint firstItem="XRL-26-BJo" firstAttribute="top" secondItem="5F3-dh-E0h" secondAttribute="bottom" constant="16" id="ZWp-QE-7Dk"/>
+                        <constraint firstAttribute="trailing" secondItem="XRL-26-BJo" secondAttribute="trailing" constant="15" id="aPv-ZN-tfJ"/>
                         <constraint firstItem="0Cz-MT-bI3" firstAttribute="top" secondItem="7R3-p5-WGd" secondAttribute="bottom" constant="25" id="c1m-Lv-Ivl"/>
+                        <constraint firstItem="5F3-dh-E0h" firstAttribute="top" secondItem="OmL-2e-XOj" secondAttribute="bottom" constant="43" id="fKz-Ua-2iF"/>
                         <constraint firstItem="JWX-aK-r1O" firstAttribute="leading" secondItem="8n3-kW-pgP" secondAttribute="leading" constant="15" id="fS0-Cl-aaB"/>
                         <constraint firstItem="Vgh-iL-14S" firstAttribute="top" secondItem="JWX-aK-r1O" secondAttribute="bottom" constant="8" symbolic="YES" id="h9p-R9-ttu"/>
                         <constraint firstItem="OmL-2e-XOj" firstAttribute="top" secondItem="JWX-aK-r1O" secondAttribute="bottom" constant="50" id="kbo-PB-TiT"/>
                         <constraint firstItem="JWX-aK-r1O" firstAttribute="top" secondItem="0Cz-MT-bI3" secondAttribute="bottom" constant="10" id="og7-EP-05d"/>
                         <constraint firstAttribute="trailing" secondItem="Vgh-iL-14S" secondAttribute="trailing" constant="8" id="qkt-oG-GwK"/>
+                        <constraint firstAttribute="trailing" secondItem="XRL-26-BJo" secondAttribute="trailing" constant="15" id="rYz-7V-XIR"/>
                         <constraint firstAttribute="trailing" secondItem="OmL-2e-XOj" secondAttribute="trailing" constant="8" id="s8y-fa-hIf"/>
                         <constraint firstAttribute="trailing" secondItem="5F3-dh-E0h" secondAttribute="trailing" constant="15" id="sJN-RQ-YAY"/>
                         <constraint firstItem="UU1-It-Bez" firstAttribute="leading" secondItem="8n3-kW-pgP" secondAttribute="leading" constant="15" id="toC-yl-reX"/>
-                        <constraint firstAttribute="bottom" secondItem="5F3-dh-E0h" secondAttribute="bottom" constant="52" id="tvY-fa-ycO"/>
                         <constraint firstItem="5F3-dh-E0h" firstAttribute="leading" secondItem="8n3-kW-pgP" secondAttribute="leading" constant="15" id="vZG-8f-3T7"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
@@ -231,7 +267,7 @@ all the features in Zwallet.</string>
                 <constraint firstItem="smJ-8k-wUg" firstAttribute="leading" secondItem="g3j-hP-ILr" secondAttribute="leading" constant="8" id="fUh-kc-lCm"/>
                 <constraint firstItem="smJ-8k-wUg" firstAttribute="leading" secondItem="g3j-hP-ILr" secondAttribute="leading" constant="8" id="iQU-Te-KrU"/>
             </constraints>
-            <point key="canvasLocation" x="144.80000000000001" y="-826.23688155922048"/>
+            <point key="canvasLocation" x="516" y="-970.16491754122944"/>
         </view>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
     </objects>

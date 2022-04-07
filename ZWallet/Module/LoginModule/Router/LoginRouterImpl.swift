@@ -19,7 +19,6 @@ public class LoginRouterImpl {
         let presenter = LoginPresenterImpl(view: vc, interactor: interactor, router: router)
         
         interactor.interactorOutput = presenter
-        
         vc.presenter = presenter
         
         UIApplication.shared.windows.first?.rootViewController = vc
@@ -28,9 +27,14 @@ public class LoginRouterImpl {
 }
 
 extension LoginRouterImpl: LoginRouterProtocol {
+    func navigateToRegister(viewController: UIViewController) {
+        RegisterRouterImpl.navigateToModule(viewController: viewController)
+    }
+    
     func navigateToHome() {
         NotificationCenter.default.post(name: Notification.Name("reloadRootView"), object: nil)
     }
+    
 }
 
 

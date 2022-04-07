@@ -6,9 +6,15 @@
 //
 
 import Foundation
+import UIKit
 
 class LoginPresenterImpl: LoginPresenterProtocol {
-
+   
+    
+    func signUpOnClick(viewController: UIViewController) {
+        self.router.navigateToRegister(viewController: viewController)
+    }
+    
     
     let view: LoginViewProtocol
     let interactor: LoginInteractorProtocol
@@ -36,6 +42,5 @@ extension LoginPresenterImpl: LoginInteractorOutputProtocol {
             self.view.showError()
         }
     }
-    
     
 }

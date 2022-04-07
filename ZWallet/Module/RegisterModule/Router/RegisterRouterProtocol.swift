@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+
+protocol RegisterRouterProtocol {
+    func navigateToHome()
+    
+}

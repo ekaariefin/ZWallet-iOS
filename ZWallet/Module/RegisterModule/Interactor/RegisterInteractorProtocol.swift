@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol RegisterInteractorProtocol {
+    func postRegisterData(username: String, email: String, password: String)
+}

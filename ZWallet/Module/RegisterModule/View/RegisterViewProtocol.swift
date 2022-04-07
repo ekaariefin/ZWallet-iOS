@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+
+protocol RegisterViewProtocol {
+    func showError()
+}

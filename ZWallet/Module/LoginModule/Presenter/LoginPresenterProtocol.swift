@@ -6,8 +6,10 @@
 //
 
 import Foundation
+import UIKit
 
 
 protocol LoginPresenterProtocol {
     func login(email: String, password: String)
+    func signUpOnClick(viewController : UIViewController)
 }

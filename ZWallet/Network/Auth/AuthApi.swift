@@ -11,6 +11,7 @@ import Moya
 
 public enum AuthApi {
     case login(email: String, password: String)
+    case register(username: String, email: String, password: String)
 }
 
 extension AuthApi: TargetType {
@@ -18,6 +19,8 @@ extension AuthApi: TargetType {
         switch self {
         case .login:
             return "/auth/login"
+        case .register:
+            return "/auth/signup"
         }
     }
 
@@ -32,8 +35,14 @@ extension AuthApi: TargetType {
                 parameters: ["email": email, "password": password],
                 encoding: JSONEncoding.default
             )
+        case .register(let username, let email, let password):
+            return .requestParameters(
+                parameters: ["username": username, "email": email, "password": password],
+                encoding: JSONEncoding.default
+        )
         }
     }
+        
 
     public var baseURL: URL {
         return URL(string: String(describing: "http://3.89.145.177:8000"))!
